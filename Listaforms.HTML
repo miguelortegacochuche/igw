@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista y Formularios</title>
+</head>
+<body>
+    <h1>Listas y Formularios</h1><!-- Encabezado de nivel 1 -->
+
+    <p> En esta seccion, exploraremos como trabajar con listas y formularios en HTML</p>
+    <h2>LIstas</h2><!-- Encabezado de nivel 2 -->
+    <p> Las listas en HTML puude ser ordenada o desordenadas, Aqui hay un ejemplo de cada una:</p>
+ 
+    <h3>Lista desordenada</h3><!-- Encabezado de nivel 3 -->
+    <ul>"type""circle"> <!-- Lista desordenada uso el atributo type para definir el estilo del bulet -->
+    <li>item 1</li><!-- Elemento de la lista -->
+    <li> item 2</li>
+    <li> item 3</li>
+    <li> item 4</li>
+</ul>
+<h3>Lista Ordenada</h3>
+<ol type="i"><!--Lista ordenada,uso el atributo type para definir el estilo del bulet -->
+    <li>item 1</li><!--Elemento de la lista -->
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+</ol>
+<h2>Formularios</h2><!-- Encabezado de nivel 2 -->
+<p>Los formularios permiten a los usuarios enviar datos. hayun ejemplo basico de un formulario</p>
+<form action="Https://example.com/submit" method="post"><!-- Formularios con atributos action y method -->
+<label for="name">Nombre:</label><!--Etiqueta como el campo de entrega -->
+<input type="text" id="name" name="name" required><!-- campo de entrada detexto requerido -->
+<br> <!--Salto de linea -->
+<label for="email"id="email" name="email" required><!-- Campo de entrada de correo electronico, requerido -->
+    <br>
+    <input type="submit" value="Enviar"><!--Boton de envio -->
+    <input type="reset"value="reiniciar"><!--Boton de reinicion -->
+</from>   
+</body>
+</html>
